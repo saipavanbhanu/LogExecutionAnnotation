@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: debug
+
+spring:
+  web:
+    resources:
+      add-mappings: true
+  mvc:
+    static-path-pattern: /static/**
